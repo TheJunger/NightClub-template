@@ -61,12 +61,45 @@ body{
     border-radius: 15px;
 }
 
-a{
+.a{
     text-decoration: none;
     color: #fff;
 }
 
-a:visited{
+.a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+.aredes{
+    color: #555;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.aredes:visited{
+    color: #555;
+    text-decoration: none;
+}
+
+.aredes:hover{
+    color: #222;
+    text-decoration: none;
+    transform: scale(1.2);
+}
+
+.footer{
+    color: #ddd;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.footer:visited{
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer:hover{
     color: #fff;
     text-decoration: none;
 }
