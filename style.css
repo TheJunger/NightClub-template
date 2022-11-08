@@ -1,0 +1,72 @@
+body{
+    background-color: #ccc;
+}
+
+.list1{
+    list-style: none;
+}
+
+.presentacion {
+    background-image: linear-gradient( to right, rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.3), rgba(34, 34, 34, 0));
+    color: #ddd;
+    border-radius: 3vh;
+    overflow: hidden;
+}
+
+.background{
+    background-image: url(imagenfondo.png);
+    background-size: cover;
+    min-height: 105vh;
+}
+
+.servtext{
+    border-bottom: 1vh solid #222;
+    border-radius: 1vh;
+}
+
+.servicios, .redes{
+    background-color: #eee;
+    border-radius: 3vh;
+}
+
+.serv1,.serv2,.serv3,.serv4{
+    background-color: rgba(255, 255, 255, 0.788);
+    border-radius: 2vh;
+}
+
+.mapa{
+    border: 2px solid #222;
+}
+
+.boton{
+    width: 25%;
+    border: 1px double #222;
+}
+
+.form{
+    border: none;
+    border-bottom: 5px solid #666;
+    border-radius: 5px;
+}
+
+.form:focus{
+    border: none;
+    border-bottom: 5px solid #222;
+    border-left: 3px solid #222;
+    border-radius: 5px;
+}
+
+.backgroundform{
+    background-color: #ddd;
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:visited{
+    color: #fff;
+    text-decoration: none;
+}
