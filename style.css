@@ -103,3 +103,7 @@ body{
     color: #fff;
     text-decoration: none;
 }
+
+.formemail{
+    display: none;
+}
